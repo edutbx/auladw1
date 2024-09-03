@@ -1,0 +1,12 @@
+body {
+    background-color: darkgrey;
+}
+
+.headborder {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.boxsize {
+    width: 50%;
+}
