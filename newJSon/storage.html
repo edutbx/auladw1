@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Json Banco</title>
     <script src="app.js"></script>
+    <script src="teste.js"></script>
 </head>
-<body>
-    <button type="submit" onclick="dados()">Adicionar</button>
+
+<body onload="dados()">
+    <section>
+        <input type="text" id="login" placeholder="coloque o seu login">
+        <input type="password" id="pass" placeholder="coloque a sua senha"> 
+        <button type="submit" onclick="logar()">Adicionar</button>
+
+    </section>
+    <button type="submit" onclick="cadastrar()">Cadastrar</button>
     <button type="submit" onclick="remover()">Remover</button>
 </body>
+
 </html>
