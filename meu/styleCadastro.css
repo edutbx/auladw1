@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 22pt;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.dir{
+    background-color: #38b6ff;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.esq{
+    width: 60%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.botao{
+    width: 400px;
+    height: 50px;
+}
+
+section{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.imagem{
+    width: 500px;
+    margin: 30px;
+}
+
+.formMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divForm{
+    width: 400px;
+    height: 500px;
+    padding: 25px;
+}
+
+.divForm2{
+    width: 400px;
+    height: 500px;
+}
+
+input{
+    border-radius: 30px;
+}
