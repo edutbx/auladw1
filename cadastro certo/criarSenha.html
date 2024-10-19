@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar senha</title>
+    <link rel="stylesheet" href="style/criarSenha.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="esq">
+            <section class="sectionCriarSenha">
+                <p>Falta pouco!</p><br>
+                <p>Só no Saude++ você tem a integração completa dos sistemas de saúde</p>
+            </section>
+        </div>
+        <div class="dir">
+            <div class="container-prontuario">
+                <img src="img/logoazul-saúde++.svg" alt="logoAzul" class="img">
+                <div class="container-tabela-prontuario">
+                    <div class="prontuario">
+                        <div class="prontuario-conteudo">
+                            <div class="input-group-prontuario">
+                                <div class="input-box-prontuario">
+                                    <label>Senha</label>
+                                    <input type="password" placeholder="Digite uma senha" required minlength="8">
+                                </div>
+
+                                <div class="input-box-prontuario">
+                                    <label>Repita a senha</label> <!-- temos que usar uma validação em js aqui -->
+                                    <input type="password" placeholder="Repita a mesma senha" required>
+                                </div>
+
+                                <div class="requisitos">
+                                    <p>- A senha deve ter pelo menos 8 caracteres.</p><br>
+                                    <p>- Deve incluir letras maiúsculas e minúsculas.</p><br>
+                                    <p>- Deve conter números</p><br>
+                                    <p>- Deve ter pelo menos um caractere especial (por exemplo, !, @, #, $).</p>
+                                </div>
+
+                                <div class="botao-prontuario">
+                                    <button><a href="login.html">Finalizar</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
